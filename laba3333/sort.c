@@ -34,7 +34,7 @@ void generateArray(int arr[], int n, int type) {
 int main() {
     srand(time(NULL));
     int sizes[] = {100, 200, 300, 400, 500};
-    int numSizes = sizeof(sizes) / sizeof(sizes[0]); // 18.03.2025
+    int numSizes = sizeof(sizes) / sizeof(sizes[0]); 
 
     printf("N  M+C теоретич.  M+C факт. (Убыв.)  M+C факт. (Случ.)  M+C факт. (Возр.)\n");
 
