@@ -41,7 +41,6 @@ void createFile(const char* filename, int N) {
         fwrite(&person, sizeof(Person), 1, file);
     }
     Person person[5];
-    // strcpy(person.name, "Stebihova");
     fread(&person[0], sizeof(person), 5, file);
     fclose(file);
 }
